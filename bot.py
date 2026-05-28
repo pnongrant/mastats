@@ -6,7 +6,7 @@ from telegram.ext import Application, CommandHandler, CallbackQueryHandler, Cont
 
 # ========== КОНФИГ ==========
 BOT_TOKEN = "8523439003:AAGPCiIrAeEZP1CkuVEV4y_HrTSakOcfJwo"
-ALLOWED_CHAT_ID = 7013338924
+ALLOWED_CHAT_ID = 7013338924,6568631013
 API_KEY = "vCorochTBYCcWcB4bhH6VNT3B0lOA519jkavsRbElZg"
 API_URL = "https://tvyze.co/api/v1/stats"
 # ============================
