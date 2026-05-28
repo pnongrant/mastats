@@ -17,7 +17,7 @@ logger = logging.getLogger(__name__)
 
 def is_allowed(update: Update) -> bool:
     user_id = update.effective_user.id if update.effective_user else None
-    return user_id == ALLOWED_CHAT_ID
+    return user_id in ALLOWED_USERS
 
 
 def fetch_stats(period: str) -> dict | None:
